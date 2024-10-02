@@ -1,0 +1,17 @@
+import math
+import statistics
+import random
+
+def raiz(valeu):
+    return math.sqrt(valeu)
+def fatorial(value):
+    return math.factorial(value)
+def potencia(value):
+    return math.pow(value, 10)
+def main():
+    numero = random.randint(0, 100)
+    print("o numero sorteado foi:", numero)
+    print("a raiz desse numero e:", fatorial(numero))
+    print("a pontencia (10) do numero é:", fatorial(numero))
+
+    main()
