@@ -1,0 +1,32 @@
+class animal:
+    def __init__(self, nome, raca):
+        self.nome = nome
+        self.raca = raca
+    def caminha():
+        print("qual o animal caminha")
+    def emitir_som():
+        print("qual som emitido por animal")
+class cachorro(animal):
+    def __init__():
+        print("/n Nome:")
+        print("/n Raça:")
+    def caminha():
+        print("/n como ele se locomove:caminhando")
+    def emitir_som():
+        print("/n como o animal emite som:Latindo")
+print("/n ______CACHORRO_____")
+cachorro.__init__()
+cachorro.caminha()
+cachorro.emitir_som()
+class gato(animal):
+    def __init__():
+        print("\n nome:")
+        print("\n raca:")
+    def caminhar():
+        print("\n como se locomove:caminhando")
+    def emitir_som():
+        print("\n como emite seu som:miados")
+print("\n ______GATO______")
+gato.__init__()
+gato.caminha()
+gato.emitir_som()
